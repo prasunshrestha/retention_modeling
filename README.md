@@ -2,7 +2,7 @@
 
 A space for Steve and Prasun to share code for retention modeling.
 
-The variable we are predicting is "SwellOneExit".  
+The variable we are predicting is "SwellOneExit", though this may change if the models work better by expanding the exits we're predicting, more on this later.  
 
 Here are the independent variables I used on my first attempt at modeling: ['YearsAsCoach', 'DaysTSubmitNoMissing',
        'FitNoMissing', 'RelationshipBuildingNoMissing',
