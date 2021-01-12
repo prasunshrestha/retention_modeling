@@ -1,40 +1,5 @@
 # retention_modeling
 
-A space for Steve and Prasun to share code for retention modeling.
+A space for Steve and Prasun to share code for retention modeling. The variable we are predicting is "SwellOneExit."
 
-The variable we are predicting is "SwellOneExit", though this may change if the models work better by expanding the exits we're predicting, more on this later.  
-
-Here are the independent variables I used on my first attempt at modeling: ['YearsAsCoach', 'DaysTSubmitNoMissing',
-       'FitNoMissing', 'RelationshipBuildingNoMissing',
-       'FinalAchievementNoMissing', 'CommAndPresNoMissing',
-       'PredModelScoreNoMissing', 'CMProspectRatingNoMissing',
-       'AgeAtFDOSNoMissing', 'SchoolSelectivityNoMissing',
-       'CumuGPANoMissing', 'PerseveranceNoMissing', 'FRPLNoMissing',
-       'YearsSchoolPartnerNoMissing', 'YearsPartnerPartnerNoMissing',
-       'FirstYearsInSchoolNoMissing', 'SecondYearsInSchoolNoMissing',
-       'CMsInSchoolNoMissing', 'CertProgramCostNoMissing',
-       'AvgFirstMonthSalNoMissing', 'RentPropNoMissing',
-       'AvgRentNoMissing', 'CorpsSizeNoMissing', 'RegPrefLevNoMissing',
-       'CSI6NoMissing', 'CSI5NoMissing', 'CSI3NoMissing',
-       'CSI12NoMissing', 'CLI8NoMissing', 'CLI6NoMissing',
-       'OtherCMsSameCoachNoMissing', 'OtherCMsPrevCoachNoMissing',
-       'K12TeachNo', 'K12TeachYes', 'K12TeachNull', 'HadFamRespNo',
-       'HadFamRespYes', 'HadFamRespNull', 'PellGrantNoOrMissing',
-       'PellGrantYes', 'GenderFemale', 'GenderMale', 'CalcGradStudent',
-       'CalcJunior', 'CalcProfessional', 'CalcUndergrad', 'CalcUnknown',
-       'AttendLIC_HS_No', 'AttendLIC_HS_Yes', 'AttendLIC_HS_Unknown',
-       'GrewUpLIC_No_Or_Unknown', 'GrewUpLIC_Yes',
-       'LIC_Served_No_Or_Unknown', 'LIC_Served_Yes', 'Eth_Black',
-       'Eth_Native', 'Eth_AsianAmPacIsl', 'Eth_Latinx',
-       'Eth_MultiEthMultiRacial', 'Eth_OtherOrUnknown', 'Eth_White',
-       'VarsitySport_No_Or_Unknown', 'VarsitySport_Yes',
-       'DeferralRequested', 'DeferralNotRequested', 'Title1No',
-       'Title1Yes', 'Grade_ECE', 'Grade_HIGH', 'Grade_LOWELEM',
-       'Grade_MIDDLE', 'Grade_UPPERELEM', 'Grade_Unknown',
-       'School_Charter', 'School_Public', 'School_Other', 'LGB_NoProtect',
-       'LGB_LocalProtect', 'LGB_StateProtect', 'TeacherPP_No',
-       'TeacherPP_Yes', 'Region_Large', 'Region_Medium', 'Region_Small',
-       'Urbanicity_Both', 'Urbanicity_Rural', 'Urbanicity_Urban',
-       'COL_High', 'COL_Low', 'COL_Medium', 'MajorTeaching_Match',
-       'MajorTeaching_Mismatch', 'MajorOffered_Match',
-       'MajorOffered_Mismatch']
+A movement to end educational inequity and attain quality education for all children, TFA loses hundreds of corps members during the school year who, unfortunately, do not complete their fellowship. A predictive model will serve as a preventive measure to assess and reduce early program exits as the coaches could intervene before the fellow drops out. Thus, I strive to work in a cross-functional team and translate loose business problems and disparate data into actionable insights and business recommendations through rigorous analysis, insightful visualizations, and engaging presentations.
